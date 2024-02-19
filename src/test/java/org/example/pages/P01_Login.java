@@ -39,10 +39,10 @@ public class P01_Login {
 
     public void selectItem() {
         JavascriptExecutor js = (JavascriptExecutor) Hooks.driver;
-        for (int i = 0; i < 8; i++) { // Adjust the number of times to scroll as needed
+        for (int i = 0; i < 8; i++) {
             js.executeScript("window.scrollBy(0, 1000);");
             try {
-                Thread.sleep(1000); // Adding a small delay between scrolls
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -80,10 +80,10 @@ public class P01_Login {
 
     public void anotherItem() {
         JavascriptExecutor js = (JavascriptExecutor) Hooks.driver;
-        for (int i = 0; i < 8; i++) { // Adjust the number of times to scroll as needed
+        for (int i = 0; i < 8; i++) {
             js.executeScript("window.scrollBy(0, 1000);");
             try {
-                Thread.sleep(1000); // Adding a small delay between scrolls
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
